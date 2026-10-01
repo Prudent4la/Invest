@@ -1,0 +1,11 @@
+INSERT INTO bookings (user_id, service_name, booking_date, booking_time, status)
+VALUES 
+    (1, 'Personal Training', '2026-10-16', '10:00:00', 'Pending'),
+    (3, 'Conference', '2026-10-18', '11:15:00', 'usersConfirmed'),booking_systembookings
+    (10, 'Holiday', '2026-10-22', '16:00:00', 'Cancelled'),
+    (11, 'Official Meeting', '2026-10-16', '10:00:00', 'Pending'),
+    (12, 'Business', '2026-11-18', '11:15:00', 'usersConfirmed'),
+    (13, 'Self treatment', '2026-10-22', '16:00:00', 'Cancelled'),
+    (14, 'Honeymoon', '2026-10-17', '11:00:00', 'Pending'),
+    (15, 'Academic conference', '2026-10-18', '11:15:00', 'usersConfirmed');
+    
