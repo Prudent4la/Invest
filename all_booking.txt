@@ -1,0 +1,11 @@
+SELECT 
+    bookings.id AS booking_id,
+    users.name AS customer_name,
+    users.email,
+    users.phone,
+    bookings.service_name,
+    bookings.booking_date,
+    bookings.booking_time,
+    bookings.status
+FROM bookings
+JOIN users ON bookings.user_id = users.id;
